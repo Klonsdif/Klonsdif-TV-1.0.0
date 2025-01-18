@@ -3,4 +3,4 @@ Klonsdif搜索TV是一款适用于TV端的浏览器应用，设计简洁，功�
 官网：
 https://klonsdif.pages.dev/search/web/tv
 截图
-![截图](https://sm.ms/image/16BXlLQN5AdRwKr)
+![截图](https://s2.loli.net/2025/01/18/16BXlLQN5AdRwKr.jpg)
