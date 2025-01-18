@@ -1,0 +1,109 @@
+@font-face {
+  font-family: a;
+  src: url("ttf/a.ttf");
+}
+  body{
+    background: url("https://cn.bing.com/th?id=OHR.PinnaclesPeaks_ZH-CN1603877182_UHD.jpg&w=3840&h=2160&c=8&rs=1&o=3&r=0");
+    background-size: 100%;
+   text-align: center;
+    
+  }
+  .search h1{
+    font-size: 2.4em;
+    color: lawngreen;
+    font-family: a;
+  }
+  .searchin{
+    width: 55%;
+    height: 40px;
+    border-radius: 15px;
+    border:none;
+    font-size: 20px;
+    background: #d2d2d2;
+  }
+  .btnsearch{
+    width: 55px;
+    height: 38px;
+   border-radius: 10px;
+   border: none;
+   box-shadow: 0px 2px 2px r rgba(0, 0, 0, 0.8);
+   font-size: 18px;
+   color: dodgerblue;
+   background: #d2d2d2;
+  }
+  .btnsearch:hover{
+    background: #28332b;
+    height: 40px;
+  }
+  .searchin:hover{
+    background: #28332b;
+    color: white;
+  }
+  iframe{
+    margin-top: 15px;
+    width: 95%;
+    height: 80vh;
+    border-radius: 10px;
+    opacity: 0.8;
+   
+  }
+  #qh{
+    animation: ab 0.3s ease-in;
+    width: 90%;
+    height: 90vh;
+    background: #909090;
+    position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+border-radius: 10px;
+display: none;
+opacity: 0.96;
+  }
+  #an{
+  color: white;
+  font-size: 20px;
+  background: #474747;
+  border: none;
+  border-radius: 5px;
+  margin-top: 8px;
+  width: 80%;
+  height: 35px;
+  }
+  #an:hover{
+    animation: b 0.8s ease;
+    border: 1px #ddd solid;
+    background: #757575;
+    
+  }
+  @keyframes b{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  @keyframes ab{
+    0%{
+      margin-top: 50px;
+      opacity: 0;
+      width: 500px;
+    }
+    100%{
+      
+    }
+  }
+.top{
+ text-align:right; 
+ }
+  .top button{
+    border:1.3px solid rgba(225,225,225,0.8);
+    background:rgba(225,225,225,0.8);
+    padding:5px;
+    border-radius:8px;
+    box-shadow:2px 2px 15px rgba(0,0,0,0.5)
+    }
+  .top button:hover{
+    background:rgba(225,225,225,0.6)
+    }
